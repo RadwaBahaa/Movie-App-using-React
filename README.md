@@ -31,11 +31,11 @@ The purpose of this project is to create a responsive and interactive movie appl
 
 The project structure is organized to facilitate modularity and maintainability:
 
-- **Components**: Reusable UI components (e.g., MovieList, MovieDetails, SearchBar) that compose the application's user interface.
-- **Containers**: Higher-level components responsible for connecting to Redux store or managing complex state logic.
-- **Pages**: Top-level components representing different views or pages of the application (e.g., Home, MovieDetails, Watchlist).
-- **Context Providers**: Providers for React Contexts used to manage global state across the application.
-- **Redux**: Modules for action creators, reducers, and store configuration related to user registration and watchlist management.
+- `Components`: Reusable UI components (e.g., MovieList, MovieDetails, SearchBar) that compose the application's user interface.
+- `Containers`: Higher-level components responsible for connecting to Redux store or managing complex state logic.
+- `Pages`: Top-level components representing different views or pages of the application (e.g., Home, MovieDetails, Watchlist).
+- `Context Providers`: Providers for React Contexts used to manage global state across the application.
+- `Redux`: Modules for action creators, reducers, and store configuration related to user registration and watchlist management.
 
 ## Future Enhancements
 
@@ -51,16 +51,19 @@ Potential enhancements for this movie app could include:
 To run the app locally:
 
 1. Clone the repository:
-   
-   _git clone https://github.com/RadwaBahaa/Movie-App-with-ReactJS.git_
+   ```sh
+   git clone https://github.com/RadwaBahaa/Movie-App-with-ReactJS.git
+   ```
 
 2. Install dependencies:
-
-   _cd movie-app_
-   _npm install_
+   ```sh
+   cd movie-app
+   npm install
+   ```
 
 3. Start the development server:
-
-   _npm start_
+   ```sh
+   npm start
+   ```
    
-4. Access the application in your web browser at http://localhost:3000.
+4. Access the application in your web browser at http://localhost:3000
